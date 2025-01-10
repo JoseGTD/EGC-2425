@@ -70,3 +70,4 @@ def create_app(config_name='development'):
 app = create_app()
 
 # this will throw a conflict
+# conflict maker
