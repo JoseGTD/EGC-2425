@@ -47,7 +47,7 @@ jobs:
       run: |
         pytest app/modules/ --ignore-glob='*selenium*'
 
-  pytest-mysql5.7:
+  pytest-mysql8.0:
     runs-on: ubuntu-latest
 
     services:
